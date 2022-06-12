@@ -1,0 +1,86 @@
+{"intents":
+  [
+    {
+    "tag":"greeting",
+      "patterns":[
+        "siang", "malam", "pagi", "apa kabar", "halo","hello"],
+      "responses":[
+          "Hai. Selamat datang di Gamelab",
+          "Hey, apakah kamu membutuhkan bantuan?",
+          "Selamat datang, ada yang bisa saya bantu?",
+          "Hai, kamu membutuhkan sesuatu?",
+          "Halo kawanku, apakah ada yang bisa saya bantu?",
+          "Hai, senang kamu kembali. Bagaimana kabarmu?"
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "patterns":["Terima kasih","Trims","Terimakasih","Terima kasih atas informasinya","Sampai jumpa!","Oke, terima kasih"],
+      "responses":[
+          "Okay, selamat tinggal!",
+          "Semoga harimu menyenangkan!",
+          "Sampai jumpa",
+          "Sama-sama, sampai jumpa.",
+          "Sampai jumpa nanti!",
+          "Percakapan yang menyenangkan. Sampai jumpa!",
+          "Oke. Semoga harimu menyenangkan!",
+          "Baik, terima kasih!"
+        ]
+    },
+    {
+        "tag":"howami",
+        "patterns":["Bagaimana kabarmu?", "Apa kabar?"],
+        "responses":[
+            "Aku baik-baik saja",
+            "Kabarku baik",
+            "Baik. Bagaimana denganmu?",
+            "Semuanya baik-baik saja",
+            "Baik, tidak banyak yang berubah dalam hidup",
+            "Aku baik-baik saja, ingin bergabung dengan GameLab ?"
+          ]
+    },
+    {
+        "tag":"whoareyou",
+      "patterns":["Siapa kamu?","Kamu itu apa?","Siapa namamu?","Apakah kamu sebuah chatbot?","Bagaimana aku harus memanggilmu?","your name ?","Apakah kamu robot?","Panggilan kamu apa?","Kamu dipanggil apa?"],
+        "responses":[
+            "Aku adalah GameLab Bot , kamu bisa memanggilku GameBot.",
+            "Aku adalah GameBot dan kamu bisa bertanya apapun tentang GameLab.",
+            "GameBot siap melayani.",
+            "Kamu bisa panggil aku GameBot dan aku siap membantumu!",
+            "Namaku GameBot dan aku akan menjawab pertanyaanmu mengenai aplikasi kami. Silahkan ditanyakan :)"
+          ]
+      },
+      {
+        "tag":"join",
+        "patterns":["Bagaimana cara bergabung?","Bagaimana cara bergabung dengan GameLab?", "Cara mendaftar","Bagaimana cara mendaftar?","Langkah bergabung dengan GameLab"],
+        "responses":[
+          "Di halaman Beranda silakan mendaftar menggunakan email dan masuk menggunakan akun yang sudah kamu buat.",
+          "Pada halaman Beranda lakukan Sign up menggunakan email dan setelah melengkapi semua, masuk menggunakan akun yang sudah dibuat."
+        ]
+      },
+      {
+        "tag":"article",
+        "patterns":["Bagaimana cara mendapatkan berita terbaru?","Dimana saya bisa lihat berita terbaru?", "Berita","Artikel"],
+        "responses":[
+          "Pada pojok kiri bawah terdapat simbol Menu (garis 3), klik 'Article'. Temukan berita terbaru di halaman tersebut!",
+          "Klik simbol Menu kemudian klik 'Article' dan voila! Kamu dapat membaca artikel dan berita terbaru!"
+        ]
+      },
+      {
+        "tag":"courses",
+        "patterns":["Bagaimana cara untuk belajar courses yang disediakan?","Dimana saya bisa belajar game development?", "Coruses","Kursus"],
+        "responses":[
+          "Pada pojok kiri bawah terdapat simbol Menu (garis 3), klik 'Courses'. Temukan materi pembelajaran untukmu. Selamat belajar, future developers!",
+          "Klik simbol Menu kemudian klik 'Courses' dan voila! Kamu dapat mulai belajar!"
+        ]
+      },
+      {
+        "tag":"error",
+        "patterns":["Bagaimana cara untuk belajar courses yang disediakan?","Dimana saya bisa belajar game development?", "Coruses","Kursus"],
+        "responses":[
+          "Pada pojok kiri bawah terdapat simbol Menu (garis 3), klik 'Courses'. Temukan materi pembelajaran untukmu. Selamat belajar, future developers!",
+          "Klik simbol Menu kemudian klik 'Courses' dan voila! Kamu dapat mulai belajar!"
+        ]
+      }
+  ]
+}
